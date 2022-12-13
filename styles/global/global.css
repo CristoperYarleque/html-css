@@ -1,0 +1,65 @@
+@import url(reset.css);
+@import url(layout.css);
+@import url(typograhy.css);
+
+:root {
+  --font-primary: "Open Sans", "Segoe UI", Tahoma, sans-serif;
+  --font-secondary: var(--font-primary);
+  --font-mono: "Source Code Pro", monospace;
+
+  --light: 300;
+  --regular: 400;
+  --semibold: 600;
+
+  --gray-900: hsla(221, 39%, 11%, 1);
+  --gray-800: hsla(215, 28%, 17%, 1);
+  --gray-700: hsla(217, 19%, 27%, 1);
+  --gray-600: hsla(215, 14%, 34%, 1);
+  --gray-500: hsla(220, 9%, 46%, 1);
+  --gray-400: hsla(218, 11%, 65%, 1);
+  --gray-300: hsla(216, 12%, 84%, 1);
+  --gray-200: hsla(220, 13%, 91%, 1);
+  --gray-100: hsla(220, 14%, 96%, 1);
+  --gray-50: hsla(210, 20%, 98%, 1);
+
+  --color-text: hsla(221, 39%, 11%, 1);
+
+  --color-primary: hsl(333, 71%, 51%);
+  --color-primary-lighter: hsl(326, 78%, 95%);
+  --color-primary-light: hsl(327, 87%, 82%);
+  --color-primary-dark: hsl(335, 78%, 42%);
+  --color-primary-darker: hsl(336, 69%, 30%);
+
+  --color-secondary: hsla(25, 5%, 45%, 1);
+  --color-secondary-lighter: hsla(60, 5%, 96%, 1);
+  --color-secondary-light: hsla(24, 6%, 83%, 1);
+  --color-secondary-dark: hsla(30, 6%, 25%, 1);
+  --color-secondary-darker: hsla(24, 10%, 10%, 1);
+
+  --color-bg: hsl(220, 14%, 96%);
+  --color-bg-lighter: hsla(0, 0%, 100%, 1);
+  --color-bg-light: hsla(210, 20%, 98%, 1);
+  --color-bg-dark: hsla(220, 13%, 91%, 1);
+  --color-bg-darker: hsla(216, 12%, 84%, 1);
+
+  --color-error: hsla(0, 91%, 71%, 1);
+  --color-warning: hsla(46, 97%, 65%, 1);
+  --color-success: hsla(138, 65%, 68%, 1);
+  --color-info: hsla(213, 94%, 68%, 1);
+}
+
+body {
+  background-color: var(--color-bg);
+  font-family: var(--font-primary);
+  font-weight: var(--regular);
+  color: var(--color-text);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-secondary);
+}

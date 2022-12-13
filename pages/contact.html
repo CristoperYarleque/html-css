@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="../styles/pages/contact.css" />
+  </head>
+  <body>
+    <header class="header-wrapper">
+      <div class="container-lg">
+        <div class="header">
+          <a href="/index.html" class="heading semibold header__logo"
+            >Tu Nombre</a
+          >
+          <div class="right-content">
+            <nav>
+              <ul class="nav-links">
+                <li><a href="" class="text semibold nav-link">Articles</a></li>
+                <li>
+                  <a href="" class="text semibold nav-link">Portafolio</a>
+                </li>
+                <li><a href="" class="text semibold nav-link">About</a></li>
+              </ul>
+            </nav>
+            <button class="btn btn--primary btn--sm">Contact Me</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="section padded welcome">
+      <div class="container-lg">
+        <div class="head-form">
+          <h1 class="heading-xl semibold">Contact Me</h1>
+          <p class="text-lg light">
+            Looking to expand your team? Or do you need a web developer for a
+            specific project? If I can help you in any way don't hesitate to
+            fill this form.
+          </p>
+        </div>
+
+        <div class="container-sm">
+          <form class="form-layout">
+            <div class="center-input">
+              <label class="text-xs light overline" for="first-name"
+                >FIRST NAME</label
+              >
+              <div class="input">
+                <input
+                  type="text"
+                  placeholder="Jhon"
+                  name="first-name"
+                  id="first-name"
+                />
+              </div>
+            </div>
+
+            <div>
+              <label class="text-xs light overline" for="last-name"
+                >LAST NAME</label
+              >
+              <div class="input">
+                <input
+                  type="text"
+                  placeholder="Doe"
+                  name="last-name"
+                  id="last-name"
+                />
+              </div>
+            </div>
+
+            <div>
+              <label class="text-xs light overline" for="email">EMAIL</label>
+              <div class="input">
+                <input
+                  type="email"
+                  placeholder="jhon@mail.com"
+                  name="email"
+                  id="email"
+                />
+              </div>
+            </div>
+
+            <div>
+              <label class="text-xs light overline" for="company"
+                >COMPANY</label
+              >
+              <div class="input">
+                <input
+                  type="text"
+                  placeholder="Company SA"
+                  name="company"
+                  id="company"
+                />
+              </div>
+            </div>
+
+            <div>
+              <label class="text-xs light overline" for="phone">PHONE</label>
+              <div class="input">
+                <input
+                  type="tel"
+                  placeholder="987654321"
+                  name="phone"
+                  id="phone"
+                />
+              </div>
+            </div>
+
+            <div>
+              <label class="text-xs light overline">COUNTRY</label>
+              <div class="input">
+                <select name="country" id="country">
+                  <option value="noCountry" selected disabled>
+                    Select one option
+                  </option>
+                  <option value="PE">Peru</option>
+                  <option value="BO">Bolivia</option>
+                  <option value="MX">Mexico</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="center-checkbox">
+              <p class="text-xs light overline">How can I help you?</p>
+              <div class="checkbox-layout">
+                <input type="checkbox" name="ruby" id="ruby" />
+                <div>
+                  <label class="text-sm light" for="job">Job Offer</label>
+                  <p class="text-xs light">
+                    If you are looking to expand your team
+                  </p>
+                </div>
+              </div>
+
+              <div class="checkbox-layout">
+                <input type="checkbox" name="project" id="project" />
+                <div>
+                  <label class="text-sm light" for="project"
+                    >Project Offer</label
+                  >
+                  <p class="text-xs light">
+                    If you are looking to expand your team
+                  </p>
+                </div>
+              </div>
+
+              <div class="checkbox-layout">
+                <input
+                  type="checkbox"
+                  name="collaboration"
+                  id="collaboration"
+                />
+                <div>
+                  <label class="text-sm light" for="collaboration"
+                    >Collaboration</label
+                  >
+                  <p class="text-xs light">
+                    If you are looking to expand your team
+                  </p>
+                </div>
+              </div>
+
+              <div class="checkbox-layout">
+                <input type="checkbox" name="other" id="other" />
+                <div>
+                  <label class="text-sm light" for="other">Other</label>
+                </div>
+              </div>
+            </div>
+          </form>
+          <div class="btn-size">
+            <button class="btn btn--primary">Send</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
