@@ -1,6 +1,5 @@
 .input {
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   gap: 4px;
   border: 1px solid var(--gray-700);

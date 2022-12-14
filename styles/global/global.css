@@ -1,6 +1,7 @@
 @import url(reset.css);
 @import url(layout.css);
 @import url(typograhy.css);
+@import url(../components/navbar.css);
 
 :root {
   --font-primary: "Open Sans", "Segoe UI", Tahoma, sans-serif;

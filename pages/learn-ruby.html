@@ -14,20 +14,62 @@
           <a href="/index.html" class="heading semibold header__logo"
             >Tu Nombre</a
           >
-          <div class="right-content">
-            <nav>
-              <ul class="nav-links">
-                <li><a href="" class="text semibold nav-link">Articles</a></li>
-                <li>
-                  <a href="" class="text semibold nav-link">Portafolio</a>
-                </li>
-                <li><a href="" class="text semibold nav-link">About</a></li>
-              </ul>
-            </nav>
-            <button class="btn btn--primary btn--sm">Contact Me</button>
+          <!-- menu start-->
+          <div class="header-content">
+            <div class="right-content">
+              <div class="menu-desktop">
+                <nav>
+                  <ul class="nav-links">
+                    <li>
+                      <a href="" class="text semibold nav-link">Articles</a>
+                    </li>
+                    <li>
+                      <a href="" class="text semibold nav-link">Portafolio</a>
+                    </li>
+                    <li>
+                      <a href="about.html" class="text semibold nav-link"
+                        >About</a
+                      >
+                    </li>
+                  </ul>
+                </nav>
+                <a href="contact.html">
+                  <button class="btn btn--primary btn--sm">Contact Me</button>
+                </a>
+              </div>
+            </div>
+            <!-- menu end-->
+            <img
+              class="menu"
+              onclick="showMenu()"
+              src="../images/icons/menu-line.svg"
+              alt="menu"
+            />
           </div>
         </div>
       </div>
+      <!-- menu mobile start-->
+      <div class="container-lg">
+        <div class="menu-mobile-hidden">
+          <nav>
+            <ul class="nav-links li-navbar">
+              <li>
+                <a href="" class="text semibold nav-link">Articles</a>
+              </li>
+              <li>
+                <a href="" class="text semibold nav-link">Portafolio</a>
+              </li>
+              <li>
+                <a href="about.html" class="text semibold nav-link">About</a>
+              </li>
+            </ul>
+          </nav>
+          <a href="contact.html">
+            <button class="btn btn--primary btn--sm">Contact Me</button>
+          </a>
+        </div>
+      </div>
+      <!-- menu mobile end -->
     </header>
 
     <main class="section">
@@ -102,5 +144,8 @@
         <button class="btn btn--primary btn--lg">Get in touch!</button>
       </div>
     </footer>
+
+    <!-- scripts -->
+    <script src="../scripts/navbar.js"></script>
   </body>
 </html>
